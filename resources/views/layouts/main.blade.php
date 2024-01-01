@@ -24,7 +24,7 @@
         @include('partials.navbar')
     </header>
 
-    <section class="px-20 py-5">
+    <section class="lg:px-20 px-10 lg:pb-28 lg:pt-10 pt-5 pb-20">
         @yield('container')
     </section>
 
