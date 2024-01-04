@@ -22,7 +22,7 @@
     {{-- CSS Library END --}}
     
 </head>
-<body class="relative">
+<body class="relative overflow-x-hidden">
     <header class="shadow-lg sticky top-0 bg-white lg:w-full w-screen z-50">
         @include('partials.navbar')
     </header>
