@@ -2,11 +2,14 @@
 
 @push('banner')    
 
-<div class="relative bg-lime-500 h-[100vh]">
-    <div class="text-center absolute top-72" data-aos="zoom-in">
+<div class="flex items-center h-[100vh]" style="background: radial-gradient(circle at top left,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%),radial-gradient(circle, transparent 25%, #ffffff  26%),linear-gradient(45deg, transparent 46%, #b4daf7 47%, #b4daf7 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #b4daf7 47%, #b4daf7 52%, transparent 53%);
+background-size: 3em 3em;
+background-color: #ffffff;
+opacity: 1">
+    <div class="text-center m-auto bg-teal-700 text-white py-10 px-8" data-aos="zoom-in">
 
 
-    <p class="text-3xl font-sans font-semibold" >Hijrah Berkah</p> <br>
+    <p class="text-3xl font-sans font-semibold" >Hijrah Berkah</p>
     <p class="text-xl font-sans font-semibold">Partner Bisnis Terbaik Anda. Bersama Menggapai Keberkahan</p>
 
     </div>

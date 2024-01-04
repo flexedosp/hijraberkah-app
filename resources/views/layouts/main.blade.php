@@ -23,7 +23,7 @@
     
 </head>
 <body class="relative overflow-x-hidden">
-    <header class="shadow-lg sticky top-0 bg-white lg:w-full w-screen z-50">
+    <header class="shadow-lg fixed bg-white lg:w-full w-screen z-50">
         @include('partials.navbar')
     </header>
     <section class="">
