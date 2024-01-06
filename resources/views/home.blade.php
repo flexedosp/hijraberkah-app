@@ -17,8 +17,31 @@ opacity: 1">
 @endpush
 
 @section('container')
-    <p class="text-3xl font-semibold text-center my-4">Hello World, My Friends!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eligendi numquam quos corporis eaque pariatur quas animi est modi quod nisi placeat maiores nam autem aliquid nihil cumque. Praesentium rerum possimus aliquam ab, ex dolor ea dolorem at adipisci! Provident, perspiciatis possimus amet error ratione vero maxime ab cupiditate aliquid dignissimos doloribus porro, enim, adipisci labore quis tempora eius aliquam nostrum ut! Minus cupiditate voluptas ut alias voluptates, illum tempora earum nam doloribus aliquam commodi? Voluptatem sequi quaerat praesentium hic.\</p>
+<div class="my-28">
+    <p class="text-3xl font-semibold text-center my-4">Produk & Jasa</p>
+    
 
-    @endsection
+<div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+    <ul class="flex flex-wrap -mb-px text-sm font-medium text-center justify-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
+        <li class="mx-20" role="presentation">
+            <button class="inline-block p-4 border-b-2 rounded-t-lg" id="product-tab" data-tabs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="false">Produk</button>
+        </li>
+        <li class="mx-20" role="presentation">
+            <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="service-tab" data-tabs-target="#service" type="button" role="tab" aria-controls="service" aria-selected="false">Jasa</button>
+        </li>
+    </ul>
+</div>
+<div id="default-tab-content">
+    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="product" role="tabpanel" aria-labelledby="product-tab">
+        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">product tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+    </div>
+    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="service" role="tabpanel" aria-labelledby="service-tab">
+        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Jasa tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+    </div>
+
+</div>
+
+</div>
+
+@endsection
 

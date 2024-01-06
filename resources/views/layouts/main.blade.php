@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="/img/Logo_Square.ico" type="image/x-icon">
-    <title>Hijra Berkah | {{ $titlePage }} </title>
+    <title>Hijrah Berkah | {{ $titlePage }} </title>
 
     {{-- CSS Library --}}
     {{-- AOS --}}
