@@ -6,7 +6,7 @@
 background-size: 3em 3em;
 background-color: #ffffff;
 opacity: 1">
-    <div class="text-center m-auto bg-teal-700 text-white py-10 px-8" data-aos="zoom-in">
+    <div class="text-center m-auto bg-teal-700 text-white py-10 px-8 rounded-xl" data-aos="zoom-in">
 
 
     <p class="text-3xl font-sans font-semibold" >Hijrah Berkah</p>
