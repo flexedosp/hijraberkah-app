@@ -8,9 +8,9 @@
         </div>
 
         <div class="ms-auto me-4 lg:block hidden">
-            <a href="#" class="text-lg font-normal mx-3 text-black no-underline hover:text-slate-600 focus:text-slate-500">Beranda</a>
-            <a href="#" class="text-lg font-normal mx-3 text-black no-underline hover:text-slate-600  focus:text-slate-500">Produk</a>
-            <a href="#" class="text-lg font-normal mx-3 text-black no-underline hover:text-slate-600 focus:text-slate-500">Kontak</a>
+            <a href="/" class="text-lg font-normal mx-3 text-black no-underline hover:text-slate-600 focus:text-slate-500">Beranda</a>
+            <a href="/#produknjasa" class="text-lg font-normal mx-3 text-black no-underline hover:text-slate-600  focus:text-slate-500">Produk</a>
+            <a href="/#kontak" class="text-lg font-normal mx-3 text-black no-underline hover:text-slate-600 focus:text-slate-500">Kontak</a>
         </div>
     </div>
     

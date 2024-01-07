@@ -2,7 +2,7 @@
 
 @push('banner')    
 
-<div class="flex items-center h-[100vh]" style="background: radial-gradient(circle at top left,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%),radial-gradient(circle, transparent 25%, #ffffff  26%),linear-gradient(45deg, transparent 46%, #b4daf7 47%, #b4daf7 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #b4daf7 47%, #b4daf7 52%, transparent 53%);
+<div class="flex items-center h-[100vh]" style="background: radial-gradient(circle at top left,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%) , radial-gradient(circle at bottom left,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%), radial-gradient(circle at top right ,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%) , radial-gradient(circle at bottom right,transparent 9%, #b4daf7 10% ,#b4daf7 15% , transparent 16%),radial-gradient(circle, transparent 25%, #ffffff  26%),linear-gradient(45deg, transparent 46%, #b4daf7 47%, #b4daf7 52%, transparent 53%), linear-gradient(135deg, transparent 46%, #b4daf7 47%, #6a99bd 52%, transparent 53%);
 background-size: 3em 3em;
 background-color: #ffffff;
 opacity: 1">
@@ -18,7 +18,7 @@ opacity: 1">
 
 @section('container')
 <div class="my-28">
-    <p class="text-3xl font-semibold text-center my-4">Produk & Jasa</p>
+    <p id="produknjasa" class="text-3xl font-semibold text-center my-4">Produk & Jasa</p>
     
 
 <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
@@ -31,11 +31,31 @@ opacity: 1">
         </li>
     </ul>
 </div>
-<div id="default-tab-content">
-    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="product" role="tabpanel" aria-labelledby="product-tab">
-        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">product tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
+<div id="default-tab-content transition-all duration-300">
+    <div class="flex flex-wrap justify-center py-4 lg:px-20 px-4 "id="product" role="tabpanel" aria-labelledby="product-tab">
+       
+
+    <div class="transition m-5 ease-in-out duration-500 max-w-[16rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="/img/stok_lezatmu.jpeg" alt="" />
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">LezatMU</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Produk Mie Buatan Muhammadiyah </p>
+            <div class="flex items-center">
+                <a href="#" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <span class="me-2">Read More</span>
+                    <i class=" me-2 duration-500 group-hover:rotate-90 fa-solid fa-arrow-right group-hover:"></i>
+             
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="service" role="tabpanel" aria-labelledby="service-tab">
+
+    </div>
+    <div class="flex flex-wrap justify-center py-4 lg:px-20 px-4 " id="service" role="tabpanel" aria-labelledby="service-tab">
         <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Jasa tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
     </div>
 
