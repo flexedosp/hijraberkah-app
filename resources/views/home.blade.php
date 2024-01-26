@@ -18,48 +18,58 @@ opacity: 1">
 
 @section('container')
 <div class="my-28">
-    <p id="produknjasa" class="text-3xl font-semibold text-center my-4">Produk & Jasa</p>
-    
-
-<div class="mb-4 border-b border-gray-200 dark:border-gray-700">
-    <ul class="flex flex-wrap -mb-px text-sm font-medium text-center justify-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
-        <li class="mx-20" role="presentation">
-            <button class="inline-block p-4 border-b-2 rounded-t-lg" id="product-tab" data-tabs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="false">Produk</button>
-        </li>
-        <li class="mx-20" role="presentation">
-            <button class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="service-tab" data-tabs-target="#service" type="button" role="tab" aria-controls="service" aria-selected="false">Jasa</button>
-        </li>
-    </ul>
-</div>
-<div id="default-tab-content transition-all duration-300">
-    <div class="flex flex-wrap justify-center py-4 lg:px-20 px-4 "id="product" role="tabpanel" aria-labelledby="product-tab">
-       
-
-    <div class="transition m-5 ease-in-out duration-500 max-w-[16rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-            <img class="rounded-t-lg" src="/img/stok_lezatmu.jpeg" alt="" />
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">LezatMU</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Produk Mie Buatan Muhammadiyah </p>
-            <div class="flex items-center">
-                <a href="#" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    <span class="me-2">Read More</span>
-                    <i class=" me-2 duration-500 group-hover:rotate-90 fa-solid fa-arrow-right group-hover:"></i>
-             
-                </a>
+    <p id="produknjasa" class="text-3xl font-semibold text-center my-4">Bisnis Kami</p>
+    <div class="py-10 flex lg:flex-wrap lg:justify-center lg:items-center overflow-y-auto">
+        <div data-aos="flip-right" class="m-8 transition-all ease-in-out duration-300 max-w-[15rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <img class="rounded-t-lg lg:h-[10rem] h-[12rem]" src="/img/stok_lezatmu.jpeg" alt="" />
+            <div class="p-5">
+                    <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">LezatMU</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Produk Mie Buatan Muhammadiyah dengan 3 rasa berbeda.</p>
+                <div class="flex items-center">
+                    <a href="#" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <span class="me-2">Baca Selengkapnya</span>
+                        <i class=" me-2 duration-500 group-hover:rotate-90 fa-solid fa-arrow-right group-hover:"></i>
+                 
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
+  
+
+
+        <div data-aos="flip-right" class="m-8 transition-all ease-in-out duration-300 max-w-[15rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <img class="rounded-t-lg lg:h-[10rem] h-[12rem]" src="/img/servis_laptop.jpg" alt="" />
+            <div class="p-5">
+                    <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Laptop Services</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jasa Servis dan Instal Ulang Laptop Terbaik di Jakarta Selatan </p>
+                <div class="flex items-center">
+                    <a href="#" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <span class="me-2">Baca Selengkapnya</span>
+                        <i class=" me-2 duration-500 group-hover:rotate-90 fa-solid fa-arrow-right group-hover:"></i>
+                 
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div data-aos="flip-right" class="m-8 transition-all ease-in-out duration-300 max-w-[15rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <img class="rounded-t-lg lg:h-[10rem] h-[12rem]" src="/img/wisata_religi.jpg" alt="" />
+            <div class="p-5">
+                    <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Wisata Religi</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Tour ke Berbagai Kota & Masjid di wilayah Jabodetabek</p>
+                <div class="flex items-center">
+                    <a href="#" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <span class="me-2">Baca Selengkapnya</span>
+                        <i class=" me-2 duration-500 group-hover:rotate-90 fa-solid fa-arrow-right group-hover:"></i>
+                 
+                    </a>
+                </div>
+            </div>
+        </div>
 
     </div>
-    <div class="flex flex-wrap justify-center py-4 lg:px-20 px-4 " id="service" role="tabpanel" aria-labelledby="service-tab">
-        <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Jasa tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
-    </div>
-
-</div>
 
 </div>
 

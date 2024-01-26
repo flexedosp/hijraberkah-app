@@ -18,7 +18,7 @@
     </div>
     
 </nav>
-<section class="lg:px-20 px-10 lg:pb-20 pt-8 pb-28 bg-green-500 text-white">
+<section class="lg:px-20 px-10 lg:pb-20 pt-8 pb-28 bg-teal-950 text-white">
     This is footer
     <div>
 
