@@ -17,10 +17,10 @@ opacity: 1">
 @endpush
 
 @section('container')
-<div class="my-28">
-    <p id="produknjasa" class="text-3xl font-semibold text-center my-4">Bisnis Kami</p>
+<div id="produknjasa" class="my-28 target:pt-16">
+    <p  class="text-3xl font-semibold text-center lg:my-4 mt-10 mb-4" data-aos="zoom-in">Bisnis Kami</p>
     <div class="lg:py-10 py-2 flex lg:flex-wrap lg:justify-center lg:items-center overflow-y-auto">
-        <div data-aos="flip-right" class="my-1 mx-5 lg:m-8 transition-all ease-in-out duration-300 max-w-[15rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div data-aos="flip-right" data-aos-delay="500" class="my-1 mx-5 lg:m-8 transition-all ease-in-out duration-300 max-w-[15rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <img class="rounded-t-lg lg:h-[10rem] h-[9rem]" src="/img/stok_lezatmu.jpeg" alt="" />
             <div class="p-5">
                     <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">LezatMU</h5>
@@ -37,11 +37,11 @@ opacity: 1">
   
 
 
-        <div data-aos="flip-right" class="my-1 mx-5 lg:m-8 transition-all ease-in-out duration-300 max-w-[15rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div data-aos="flip-right" data-aos-delay="500" class="my-1 mx-5 lg:m-8 transition-all ease-in-out duration-300 max-w-[15rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <img class="rounded-t-lg lg:h-[10rem] h-[9rem]" src="/img/servis_laptop.jpg" alt="" />
             <div class="p-5">
                     <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Komputer Services</h5>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jasa Servis & Instal Ulang Komputer & Laptop</p>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jasa Servis & Instal Ulang Komputer terbaik di Jakarta Selatan</p>
                 <div class="flex items-center">
                     <a href="#" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         <span class="me-2">Baca Selengkapnya</span>
@@ -54,7 +54,7 @@ opacity: 1">
 
 
 
-        <div data-aos="flip-right" class="my-1 mx-5 lg:m-8 transition-all ease-in-out duration-300 max-w-[15rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div data-aos="flip-right" data-aos-delay="500" class="my-1 mx-5 lg:m-8 transition-all ease-in-out duration-300 max-w-[15rem] hover:scale-105 hover:shadow-lg  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <img class="rounded-t-lg lg:h-[10rem] h-[9rem]" src="/img/wisata_religi.jpg" alt="" />
             <div class="p-5">
                     <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Wisata Religi</h5>
@@ -72,11 +72,11 @@ opacity: 1">
     </div>
 </div>
 
-<div class="my-28">
-    <p id="reviewcostumer" class="text-3xl font-semibold text-center my-4">Testimoni</p>
+<div id="reviewcostumer" class="my-28 target:pt-16">
+    <p  class="text-3xl font-semibold text-center my-4" data-aos="zoom-in">Testimoni</p>
     
 
-<div id="controls-carousel" class="relative w-full" data-carousel="slide">
+<div id="controls-carousel" class="relative w-full" data-carousel="slide" data-aos="zoom-in" data-aos-delay="300">
     <!-- Carousel wrapper -->
     <div class="relative lg:h-56 h-80 overflow-hidden rounded-lg md:h-96">
  <!-- Item 0 -->
