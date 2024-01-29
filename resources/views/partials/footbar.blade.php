@@ -1,4 +1,4 @@
-<nav class="w-screen fixed bottom-0 bg-teal-500 py-4 px-8 lg:hidden block">
+<nav class="w-screen fixed z-50 bottom-0 bg-teal-500 py-4 px-8 lg:hidden block">
     <div class="flex justify-center">
         <a href="#" class="text-center text-white hover:text-slate-400 focus:text-slate-300 mx-7" rel="noopener noreferrer">
             <i class="fa-solid fa-boxes-stacked text-2xl"></i>
