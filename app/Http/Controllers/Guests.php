@@ -11,4 +11,9 @@ class Guests extends Controller
     {
         return view('home', ['titlePage' => 'Beranda']);
     }
+
+    public function detail()
+    {
+        return view('detailproduk', ['titlePage' => 'Detail Produk']);
+    }
 }

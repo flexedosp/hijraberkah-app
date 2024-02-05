@@ -26,7 +26,7 @@ opacity: 1">
                     <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">LezatMU</h5>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Produk Mie Buatan Muhammadiyah dengan 3 rasa berbeda.</p>
                 <div class="flex items-center">
-                    <a href="#" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <a href="/detail" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         <span class="me-2">Baca Selengkapnya</span>
                         <i class=" me-2 duration-500 group-hover:rotate-90 fa-solid fa-arrow-right group-hover:"></i>
                  
@@ -43,7 +43,7 @@ opacity: 1">
                     <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Komputer Services</h5>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jasa Servis & Instal Ulang Komputer terbaik di Jakarta Selatan</p>
                 <div class="flex items-center">
-                    <a href="#" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <a href="/detail" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         <span class="me-2">Baca Selengkapnya</span>
                         <i class=" me-2 duration-500 group-hover:rotate-90 fa-solid fa-arrow-right group-hover:"></i>
                  
@@ -60,7 +60,7 @@ opacity: 1">
                     <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Wisata Religi</h5>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Tour ke Berbagai Kota & Masjid di wilayah Jabodetabek</p>
                 <div class="flex items-center">
-                    <a href="#" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <a href="/detail" class="group duration-500 hover:shadow-lg hover:scale-105 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         <span class="me-2">Baca Selengkapnya</span>
                         <i class=" me-2 duration-500 group-hover:rotate-90 fa-solid fa-arrow-right group-hover:"></i>
                  

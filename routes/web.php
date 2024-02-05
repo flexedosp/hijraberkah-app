@@ -19,6 +19,8 @@ use App\Http\Controllers\Guests;
 
 Route::get('/', [Guests::class, 'home']);
 
+Route::get('/detail/{id}', [Guests::class, 'detail']);
+
 Route::get('/laravel-guide', function () {
     return view('welcome');
 });
